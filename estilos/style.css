@@ -32,13 +32,13 @@ div#app {
     background-color: #1D1C19;
     padding: 0.1px;
     border-radius: 10px;
-    box-shadow: 0px 2px 0px 0px yellow;
+    box-shadow: 0px 2px 0px 0px #F7DD43;
 }
 
 #card h2 {
     color: yellow;
     font-size: 24px;
-    border: 1px solid yellow;
+    border: 1px solid #746615;
     padding: 7px;
     width: 156px;
     border-radius: 6px;
