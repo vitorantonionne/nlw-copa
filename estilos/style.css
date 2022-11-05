@@ -11,7 +11,7 @@
 }
 
 html , body {
-    height: 100vh;
+    height: 99vh;
 }
 
 body {
@@ -36,6 +36,7 @@ div#app {
 }
 
 #card h2 {
+    display: flex;
     color: yellow;
     font-size: 24px;
     border: 1px solid #746615;
@@ -43,6 +44,7 @@ div#app {
     width: 156px;
     border-radius: 6px;
     margin: 32px 69.5px 53px 69.5px;
+    align-items: center;
 }
 
 #card span {
@@ -56,12 +58,16 @@ div#app {
 }
 
 #card li {
- margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    
+    border-bottom: 1px solid #3232386b;
+    justify-content: space-between;
 }
 
 #card li > strong {
     color: white;
     font-weight: bold;
     font-size: 36px;
-    margin: 37.5px;
+    margin: 27.5px;
 }
