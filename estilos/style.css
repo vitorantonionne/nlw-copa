@@ -14,9 +14,9 @@ body {
     background-color: #1E1E1E;
 }
 
-div#card {
-    height: 60vh;
-    width: 29vw;
-    background: url('../imagens-paises/fundoblue.svg') no-repeat bottom center ;
-    background-size: cover;
+div#app {
+    background:  url('../imagens-paises/fundoblue.svg') no-repeat top center fixed;
+    background-size: auto;
+    width: 45vw;
+
 }
