@@ -1,0 +1,22 @@
+@charset "UTF-08";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html , body {
+    height: 100vh;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+div#card {
+    height: 60vh;
+    width: 29vw;
+    background: url('../imagens-paises/fundoblue.svg') no-repeat bottom center ;
+    background-size: cover;
+}
