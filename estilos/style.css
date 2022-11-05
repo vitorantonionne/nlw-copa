@@ -1,9 +1,13 @@
 @charset "UTF-08";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 html , body {
@@ -11,12 +15,53 @@ html , body {
 }
 
 body {
-    background-color: #1E1E1E;
+ background: black url('../imagens-paises/fundoblue.svg') no-repeat center 85%  fixed;
 }
 
-div#app {
-    background:  url('../imagens-paises/fundoblue.svg') no-repeat top center fixed;
-    background-size: auto;
-    width: 45vw;
+div#app { 
+    margin: 52px auto;
+    width: fit-content;
+}
 
+#app header {
+    margin-bottom: 60px;
+}
+
+#card {
+    text-align: center;
+    background-color: #1D1C19;
+    padding: 0.1px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 0px 0px yellow;
+}
+
+#card h2 {
+    color: yellow;
+    font-size: 24px;
+    border: 1px solid yellow;
+    padding: 7px;
+    width: 156px;
+    border-radius: 6px;
+    margin: 32px 69.5px 53px 69.5px;
+}
+
+#card span {
+    margin-left: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+#card ul {
+    list-style-type: none;
+}
+
+#card li {
+ margin-bottom: 24px;
+}
+
+#card li > strong {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 37.5px;
 }
