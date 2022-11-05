@@ -2,4 +2,4 @@
 
 <p>Projeto calendario da copa</p>
 
-<img src="imagens-paises/logo.svg" alt="logo nwl">
+<p style="text-align: center;"><img src="imagens-paises/logo.svg" alt="logo nwl"></p>
