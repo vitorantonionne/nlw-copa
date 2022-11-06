@@ -15,7 +15,8 @@ html , body {
 }
 
 body {
- background: black url('../imagens-paises/fundoblue.svg') no-repeat center 85%  fixed;
+ background: black url('../imagens-paises/fundoblue.svg') no-repeat center center  fixed;
+ background-size: cover;
 }
 
 div#app { 

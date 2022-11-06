@@ -18,7 +18,7 @@ function createCard(date , day, games) {
               ${games}
             </ul>
         </div>
-    </div>
+    </div>  
     `  
 } 
 
