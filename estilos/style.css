@@ -10,12 +10,30 @@
     font-weight: normal;
 }
 
+:root {
+    --fundo-card: url(../imagens-paises/fundoblue.svg);
+    --fundo-padraocard: #202024;
+    --borda-sombra-padrao: #338AF3;
+}
+
 html , body {
     height: 99vh;
 }
 
+body.green {
+    --fundo-card: url(../imagens-paises/fundogreen.svg);
+    --fundo-padraocard: #1A1F1B;
+    --borda-sombra-padrao:  #047C3F;
+}
+
+body.yellow {
+    --fundo-card: url(../imagens-paises/fundoyellow.svg);
+    --fundo-padraocard: #1D1C19;
+    --borda-sombra-padrao: #F7DD43;
+}
+
 body {
- background: black url('../imagens-paises/fundoblue.svg') no-repeat center center  fixed;
+ background: black var(--fundo-card) no-repeat center center  fixed;
  background-size: cover;
 }
 
@@ -37,17 +55,17 @@ div#app {
 
 #card {
     text-align: center;
-    background-color: #1D1C19;
+    background-color: var(--fundo-padraocard);
     padding: 0.1px;
     border-radius: 10px;
-    box-shadow: 0px 2px 0px 0px #F7DD43;
+    box-shadow: 0px 2px 0px 0px var(--borda-sombra-padrao);
 }
 
 #card h2 {
     display: flex;
     color: yellow;
     font-size: 24px;
-    border: 1px solid #746615;
+    border: 1px solid var(--borda-sombra-padrao);
     padding: 7px;
     width: 156px;
     border-radius: 6px;
@@ -106,5 +124,12 @@ div#app {
 
     100% {
         opacity: 1;
+    }
+}
+
+@media  (min-width: 400px) {
+
+    #card {
+        
     }
 }
