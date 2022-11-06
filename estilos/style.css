@@ -23,6 +23,12 @@ div#app {
     width: fit-content;
 }
 
+#cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
 #app header {
     margin-bottom: 60px;
 }
