@@ -51,6 +51,7 @@ div#app {
 
 #app header {
     margin-bottom: 60px;
+    text-align: center;
 }
 
 #card {
@@ -127,9 +128,10 @@ div#app {
     }
 }
 
-@media  (min-width: 400px) {
-
-    #card {
-        
+@media  (min-width: 700px) {
+    #cards {
+        max-width: 670px;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
