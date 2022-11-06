@@ -27,6 +27,7 @@ div#app {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    margin-bottom: 25px;
 }
 
 #app header {
@@ -78,4 +79,31 @@ div#app {
     font-weight: bold;
     font-size: 36px;
     margin: 27.5px;
+}
+
+#card h2:hover,
+#card img:hover ,
+#card strong:hover {
+    transform: scale(1.1);
+}
+
+#card h2,
+#card img,
+#card strong {
+    transition: transform .5s;
+}
+
+#card {
+    animation: effect 3s;
+}
+
+@keyframes effect {
+    0% {
+        transform: translatey(-50%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
